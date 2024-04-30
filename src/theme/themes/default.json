@@ -1,0 +1,29 @@
+{
+  "colors": {
+    "background": "",
+    "header": ""
+  },
+
+  "textStyles": {
+    "xSmall": {
+      "size": "16px",
+      "fontFamily": "Roboto"
+    },
+    "small": {
+      "size": "18px",
+      "fontFamily": "Roboto"
+    },
+    "medium": {
+      "size": "20px",
+      "fontFamily": "Roboto"
+    },
+    "large": {
+      "size": "22px",
+      "fontFamily": "Roboto"
+    },
+    "xLarge": {
+      "size": "24px",
+      "fontFamily": "Roboto"
+    }
+  }
+}
