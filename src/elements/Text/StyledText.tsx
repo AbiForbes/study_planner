@@ -6,8 +6,8 @@ import styled from 'styled-components'
 const StyledText = styled(RNText)<StyledTextProps>`
   ${props => {
     return `
-    font-size: ;
-    font-family: ;
+    font-size: 16px;
+    font-family: Roboto;
     font-weight: ${Platform.OS === 'android' ? 'normal' : props.fontWeight};
     `
   }}

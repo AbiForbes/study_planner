@@ -20,7 +20,7 @@
     "react-native": "0.74.0",
     "react-native-gesture-handler": "^2.16.1",
     "react-native-safe-area-context": "^4.10.1",
-    "react-native-screens": "^3.31.1",
+    "react-native-screens": "^3.32.0",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
@@ -44,6 +44,7 @@
     "pretty-quick": "3.1.1",
     "react-test-renderer": "18.2.0",
     "ts-jest": "^29.1.2",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "5.0.4"
   },
   "engines": {

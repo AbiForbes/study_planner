@@ -1,3 +1,5 @@
+import * as styledComponents from 'styled-components/native'
+
 export type ChosenTheme<T> = {
   [theme: string]: T
 }
@@ -23,4 +25,12 @@ export interface AppTheme {
 
 export type Theme = AppTheme
 
-export const Themes: ChosenTheme<Theme> = require('../themes/default.json')
+export const Themes: ChosenTheme<Theme> = require('./themes/default.json')
+
+const {
+  default: styled,
+  css,
+  ThemeProvider: StyledComponentsThemeProvider,
+} = styledComponents as unknown as styledComponents.ReactNativeThemedStyledComponentsModule<Theme>
+
+export {css, StyledComponentsThemeProvider, styled}
